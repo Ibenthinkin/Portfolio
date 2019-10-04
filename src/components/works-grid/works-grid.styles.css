@@ -1,0 +1,13 @@
+.works-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+  .works-grid {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+  }
+}
